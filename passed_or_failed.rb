@@ -1,0 +1,3 @@
+class PassedOrFailed
+
+end
