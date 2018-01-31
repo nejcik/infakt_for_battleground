@@ -52,3 +52,36 @@ bundle
 ```
 bundle exec rspec
 ```
+
+Zadanie jest wykonane poprawnie, jeśli testy przejdą bez błędów, jak poniżej:
+
+```
+CaesarCipher
+  args: 'Testowy Tekst'
+    should eq "Grfgbjl Grxfg"
+  args: 'Ala ma...psa!', 4
+    should eq "Epe qe...twe!"
+  args: 'Ala ma...psa!', -4
+    should eq "Whw iw...low!"
+  args: 'Ala ma...psa!', 26
+    should eq "Ala ma...psa!"
+  args: 'Ala ma...psa!', -26
+    should eq "Ala ma...psa!"
+
+PassedOrFailed
+  first dataset
+    should eq {:passed=>{"Ellen"=>65, "Mike"=>70}, :failed=>{"Mark"=>10,
+"Roger"=>20}}
+  second dataset
+    should eq {:passed=>{"Ellen"=>65, "Roger"=>20, "Mike"=>70},
+:failed=>{"Mark"=>10}}
+  third dataset
+    should eq {:passed=>{}, :failed=>{"Mark"=>10, "Ellen"=>65,
+"Roger"=>20, "Mike"=>70}}
+  fourth dataset
+    should eq {:passed=>{"Mark"=>10, "Ellen"=>65, "Roger"=>20,
+"Mike"=>70}, :failed=>{}}
+
+Finished in 0.00732 seconds (files took 0.30578 seconds to load)
+9 examples, 0 failures
+```
