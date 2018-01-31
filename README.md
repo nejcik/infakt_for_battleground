@@ -1,6 +1,6 @@
 ## Zadania do realizacji
 
-1. Pogrupuj studentów na “zdanych i oblanych”
+## 1. Pogrupuj studentów na “zdanych i oblanych”
 
 ### Założenia
 
@@ -18,7 +18,7 @@ PassedOrFailed.new(hash, "65").result
 => { passed: { "Ellen" => 65, "Mike" => 70 }, failed: { "Mark" => 10, "Roger" => 20 } }
 ```
 
-2. Napisz mechanizm Szyfrowania Cezara
+## 2. Napisz mechanizm Szyfrowania Cezara
 
 ### Założenia
 
