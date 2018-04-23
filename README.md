@@ -85,3 +85,14 @@ PassedOrFailed
 Finished in 0.00732 seconds (files took 0.30578 seconds to load)
 9 examples, 0 failures
 ```
+
+## Zadanie dodatkowe - do rozwiązania w dowolnej technologii
+
+### Założenia
+* zadanie nie jest 'obowiązkowe'!
+* możesz w wykonać je w dowolnej technologii; jeżeli zdecydujesz się na coś innego niż Ruby - pamiętaj o krótkiej instrukcji dla nas 'jak to uruchomić' ;)
+* zadanie ma odczytać plik calculator.txt
+* każda kolejna linijka zawiera jakieś działanie matematyczne, np "9*3"
+* Twój kod powinien rozczytywać ten plik i dopisywać na końcu każdej lini wynik działania, np " = 27"
+* Uwaga: dla niepoprawnych działań - program powinien sobie radzić i dopisywać 'invalid'
+
