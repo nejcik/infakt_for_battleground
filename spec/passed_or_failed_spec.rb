@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe PassedOrFailed do
-  subject { described_class.new(results, threshold).perform }
+  subject { described_class.new(results, threshold).result }
 
   context 'first dataset' do
     let(:results) { { "Mark" => 10, "Ellen" => "65", "Roger" => 20, "Mike" => "70" } }
