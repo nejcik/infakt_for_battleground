@@ -34,7 +34,7 @@ class CaesarCipher
     end
     
     ret = ret_txt.join
-    puts ret
+
     return ret
   end  
 
